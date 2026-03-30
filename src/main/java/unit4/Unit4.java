@@ -177,7 +177,7 @@ public class Unit4 {
      * @param n the size parameter for the patterns
      */
     public void printAsteriskPatterns(int n) {
-        for(int i = 0; i < n; i++;){
+        for(int i = 0; i < n; i++){
             System.out.print("*");
         }
         System.out.print("\n");
