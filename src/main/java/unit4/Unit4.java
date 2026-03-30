@@ -194,8 +194,9 @@ public class Unit4 {
             for(int y = 0; y < x; y++){
                 System.out.print("*");
             }
+            System.out.print("\n");
         }
-        System.out.print("\n");
+        
 
     }
 
