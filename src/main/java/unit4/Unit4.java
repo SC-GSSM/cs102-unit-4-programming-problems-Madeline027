@@ -30,7 +30,7 @@ public class Unit4 {
             return 0;
         }
         for(int i = 0; i <= n; i++){
-            sum = sum + n;
+            sum = sum + i;
         }
         return sum;
     }
@@ -55,7 +55,7 @@ public class Unit4 {
     public String repeatString(String str, int n) {
         String two = "";
         for(int i = 0; i < n; i++){
-            two = two + n;
+            two = str + two;
         }
         return two;
     }
@@ -142,7 +142,7 @@ public class Unit4 {
      */
     public boolean isPalindrome(String str) {
         String backwards = "";
-        for(int i = str.length()-1; i == str.length() -1; i--){
+        for(int i = str.length()-1; i >= 0; i--){
             backwards = backwards + str.charAt(i); 
             
         }
@@ -186,10 +186,11 @@ public class Unit4 {
             for(int y = 0; y < n; y++){
                 System.out.print("*");
             }
+            System.out.print("\n");
         }
-        System.out.print("\n");
+        
 
-        for(int x = 0; x < n; x++){
+        for(int x = 1; x <= n; x++){
             for(int y = 0; y < x; y++){
                 System.out.print("*");
             }
